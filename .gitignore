@@ -1,0 +1,23 @@
+# Data, labels, checkpoints and trained models (regenerate with the notebooks)
+data/
+checkpoints*/
+roberta_models/
+*.pt
+*.safetensors
+*.bin
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
